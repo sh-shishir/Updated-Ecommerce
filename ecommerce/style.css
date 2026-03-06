@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .nav-item{
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav-item:hover {
+    background-color: #67e6db;
+    color: #91b1e2 !important;
+    text-decoration: underline;
+}
+.images{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s all ease-in-out;
+}
+
+.images:hover img{
+    transform: scale(1.1);
+}
+
